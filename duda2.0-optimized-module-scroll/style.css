@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .duda-scroll-container {
+      overflow-x: auto;
+      white-space: nowrap;
+      display: flex;
+      padding: 10px;
+      scrollbar-width: none; /* Hide scrollbar for Firefox */
+    }
+    
+    .duda-scroll-container::-webkit-scrollbar {
+      display: none; /* Hide scrollbar for Chrome, Safari */
+    }
+  
+    .duda-scroll-wrapper {
+      display: flex;
+      gap: 10px;
+    }
+  
+    .duda-scroll-item {
+      min-width: 150px;
+      background: #0073e6;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      border-radius: 10px;
+    }
+  }
+  
